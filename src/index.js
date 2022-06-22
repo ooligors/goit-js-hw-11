@@ -53,7 +53,7 @@ async function fetchImages(e) {
       Notify.info('Sorry, there are no images matching your search query.Please try again.');
     }
     let totalHits = response.data.totalHits;
-    if (response.data.hits.length > 0) {
+    if (response.data.hits.length > 0 & page === 1) {
       Notify.success(`Hooray! We found ${totalHits} images.`);
     }
 
