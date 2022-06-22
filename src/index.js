@@ -101,17 +101,16 @@ function renderImages(img) {
   <a href="${img.imgLarge}"> <img src="${img.imgWeb}" alt="${img.alt}" loading="lazy" /></a>
   <div class="info">
     <p class="info-item">
-      <b>Likes  <br> ${img.likes}</b>
+      <b>Likes<br>${img.likes}</b>
     </p>
     <p class="info-item">
-      <b>Views <br> ${img.views}</b>
+      <b>Views<br>${img.views}</b>
     </p>
     <p class="info-item">
-      <b>Comments  <br> ${img.comments}</b>
+      <b>Comments<br>${img.comments}</b>
     </p>
     <p class="info-item">
-      <b> Downloads
-      <br> ${img.downloads}</b>
+      <b>Downloads<br>${img.downloads}</b>
     </p>
   </div>
 </div> `)
