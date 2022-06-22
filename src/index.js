@@ -3,9 +3,7 @@ const APIKEY = "28151063-e7dd8a3e4997fffdb31b020c7";
 
 const axios = require('axios');
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
-// Описан в документации
 import SimpleLightbox from "simplelightbox";
-// Дополнительный импорт стилей
 import "simplelightbox/dist/simple-lightbox.min.css";
 
 const searchForm = document.querySelector("#search-form");
@@ -35,9 +33,6 @@ async function fetchImages(e) {
   }
 
   searchQuery = inputValue;
-
-  console.log(e);
-  // 
 
   try {
     // const response = await axios.get(`${BASEURL}?key=${APIKEY}&q=${inputValue}&image_type=photo&orientation=horizontal&safesearch=true&page=${page}&per_page=40`);
