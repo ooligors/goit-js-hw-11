@@ -9,6 +9,7 @@ body{
   box-sizing: border-box;
 }
 [name="searchQuery"]{
+  border-radius: 35px;
   margin-right: 15px;
 display: inline-flex;
   text-decoration: none;
@@ -25,9 +26,10 @@ display: inline-flex;
 
 }
 [type="submit"]{
+  border-radius: 35px;
   display: inline-flex;
     text-decoration: none;
-    border: 2px solid #BFE2FF;
+    border: 5px solid #BFE2FF;
     position: relative;
     overflow: hidden;
     font-size: 20px;
@@ -37,11 +39,12 @@ display: inline-flex;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', Тahoma, sans-serif;
-    background: #337AB7;
+    background:hsl(320, 83%, 56%);
     transition: box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
 }
 .search-form{
+  
   margin-left: auto;
   margin-right: auto;
   width: 700px;
@@ -69,10 +72,11 @@ display: inline-flex;
 
 .photo-card {
   max-width: 25%;
-  width: 290px;
+  width: 280px;
   flex-direction: column;
   background-color: #fff;
-  
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.24);
+  margin: 10px;
 }
 
 
@@ -100,7 +104,8 @@ display: inline-flex;
   display: inline-flex;
     margin-top: 25px;
     text-decoration: none;
-    border: 2px solid #BFE2FF;
+    border-radius: 35px;
+    border: 5px solid #BFE2FF;
     position: relative;
     overflow: hidden;
     font-size: 20px;
@@ -110,18 +115,20 @@ display: inline-flex;
     font-weight: bold;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', Тahoma, sans-serif;
-    background: #337AB7;
-    transition: box-shadow 0.3s, transform 0.3s;
+    background: hsl(320, 83%, 56%);
+    // transition: box-shadow 0.3s, transform 0.3s;
     cursor: pointer;
   }
   
-  .load-more:hover,
-  .load-more:active,
-  .load-more:focus {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
-    color: #FFF;
-  }
+  // .load-more:hover,
+  // .load-more:active,
+  // .load-more:focus {
+  //   transform: translateY(-4px);
+  //   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+  //   color: #FFF;
+  // }
+
+
 // .load-more:before{
 //   content: "";
 //     position: absolute;
