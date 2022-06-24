@@ -58,8 +58,8 @@ display: inline-flex;
   // height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  // flex-basis: calc((100% -4*30px)/4);
+  justify-content:start;
+  // flex-basis: calc((100% - 4 * 30px) / 4);
 }
 .info-item:not(:last-child){
   margin-right: 10px;
@@ -71,8 +71,9 @@ display: inline-flex;
 }
 
 .photo-card {
-  max-width: 25%;
-  width: 280px;
+  // max-width: 25%;
+  // width: 280px;
+  flex-basis: calc((100% - 4 * 30px) / 4);
   flex-direction: column;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14), 0 2px 1px rgba(0, 0, 0, 0.24);
